@@ -1,0 +1,25 @@
+@charset "UTF-8";
+body{
+    background-color: dimgrey;
+}
+
+section{
+    text-align: center;
+    
+}
+section#princ{
+    text-align: center;
+    display: inline-flex;
+}
+
+div.areas{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-left: 10px;
+
+
+
