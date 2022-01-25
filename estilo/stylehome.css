@@ -9,10 +9,13 @@ section{
     text-align: center;
     
 }
-section#princ{
-    text-align: center;
-    display: inline-flex;
+
+@media(max-width: 768px){
+    section#princ{
+        flex-direction: column;
+    }
 }
+
 
 div.areas{
     border: 2px solid black;
@@ -21,7 +24,7 @@ div.areas{
     width: 100px;
     height: 100px;
     padding: 10px;
-    margin-left: 10px;
+
 }
 
 
