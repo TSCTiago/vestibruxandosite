@@ -8,11 +8,13 @@ body{
 section{
     text-align: center;
     
+    
 }
 
 @media(max-width: 768px){
     section#princ{
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -24,6 +26,7 @@ div.areas{
     width: 100px;
     height: 100px;
     padding: 10px;
+    margin: 10px;
 
 }
 
