@@ -12,24 +12,11 @@ section{
 @media(max-width: 768px){
     section#princ{ 
         flex-direction: column;
-        columns: 2;
-        margin-right: 100px;
-        margin-left: 100px;
-       
         
     }
 }
 
-@media(min-width: 1000px){
-    section#princ{ 
-        flex-direction: column;
-        columns: 2;
-        margin-right: 500px;
-        margin-left: 500px;
-       
-        
-    }
-}
+
 
 
 
