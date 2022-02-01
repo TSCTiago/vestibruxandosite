@@ -39,7 +39,7 @@ input.dig{
     width: 200px;
     font-size: 1em;
     font-family: var(--fonte2);
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.568);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.719);
    
     
     
@@ -53,7 +53,7 @@ input#botao{
     font-family: var(--fonte1);
     text-align: center;
     cursor: pointer;
-    background-color: dimgrey;
+    background-color: rgba(105, 105, 105, 0.932);
     
 }
 
