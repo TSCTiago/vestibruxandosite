@@ -5,7 +5,7 @@ body{
     
 }
 
-section{
+section#primeira{
     text-align: center;
 }
 
@@ -16,20 +16,18 @@ section{
     }
 }
 
-
-
-
-
-div.areas{
-    border: 2px solid black;
-    border-radius: 10px;
-    background-color: lightgray;
-    width: 100px;
-    height: 100px;
-    padding: 10px;
+#princ{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 700px;
+    height: 700px;
     margin: auto;
-    margin-bottom: 10px;
-   
+    border-radius: 10px;
+    border-style:outset;
+    
+}
+
+img{
+   width: 250px;
 }
 
 
