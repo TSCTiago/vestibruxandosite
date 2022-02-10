@@ -10,12 +10,6 @@ section#primeira{
     text-align: center;
 }
 
-@media(max-width: 768px){
-    section#princ{ 
-        flex-direction: column;
-        
-    }
-}
 
 #princ{
     background-color: rgba(0, 0, 0, 0.589);
