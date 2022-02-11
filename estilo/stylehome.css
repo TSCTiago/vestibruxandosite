@@ -47,5 +47,24 @@ section#primeira{
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
    margin: 10px;
 }
+footer{
+    background-color: rgba(16, 16, 172, 0.623);
+    color: white;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: black;
+
+}
 
 
