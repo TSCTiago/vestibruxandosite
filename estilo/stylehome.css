@@ -12,20 +12,19 @@ section#primeira{
 
 
 #princ{
-    background-color: rgba(0, 0, 0, 0.589);
+    background-color: rgba(0, 0, 0, 0.048);
     width: 700px;
-    height: 700px;
+    height: 550px;
     margin: auto;
     border-radius: 10px;
-    border-style:outset;
-    
+    text-align: center;
+
 }
 
-img{
-   margin: auto;
+.picture{
    border-radius: 10px;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
-   margin: 20px;
+   margin: 10px;
 }
 
 
