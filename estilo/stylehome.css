@@ -33,7 +33,13 @@ section#primeira{
 
 
 #princ{
-    background-color: rgba(0, 0, 0, 0.048);
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255,255,0.7),
+        rgba(255, 255,255,0.3)
+    );
+    backdrop-filter: blur(2rem);
     width: 700px;
     height: 550px;
     margin: auto;
@@ -46,6 +52,9 @@ section#primeira{
    border-radius: 10px;
    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.767);
    margin: 10px;
+}
+.picture:hover{
+    transform: scale(1.2);
 }
 footer{
     background-color: rgba(16, 16, 172, 0.623);
