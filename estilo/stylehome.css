@@ -142,6 +142,8 @@ section#primeira{
 }
 .picture:hover{
     transform: scale(1.2);
+    transition: all 0.5s ease-out;
+    
 }
 footer{
     background-color: rgba(16, 16, 172, 0.623);
