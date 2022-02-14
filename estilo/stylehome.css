@@ -49,6 +49,7 @@ h1{
         height: 3px;
         background: white;    
         margin: 5px;
+      
 
     }
     nav{
@@ -79,7 +80,7 @@ h1{
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
-
+        
     }
     .nav-links li{
         opacity: 0;
