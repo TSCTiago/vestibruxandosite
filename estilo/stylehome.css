@@ -11,7 +11,7 @@ body{
 }
 
 body{
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -41,6 +41,16 @@ h1{
     margin: 100px;
     font-size: 50px;     
 }
+.nav-links li:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    background-color: wheat;
+    transition: 0.5s;
+}
+
 
 @media screen and (max-width: 768px){
   
@@ -75,18 +85,31 @@ h1{
         -webkit-clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
+        
     }
     .nav-links.open{
         clip-path: circle(1000px at 90% -10%);
         -webkit-clip-path: circle(1000px at 90% -10%);
         pointer-events: all;
         
+        
     }
     .nav-links li{
         opacity: 0;
+        
     }
     .nav-links li a {
         font-size: 25px;
+    
+    }
+    .nav-links li:hover{
+        background-color: rgba(84, 84, 212, 0.568);
+        border-radius: 7px;
+        padding-left: 180px;
+        padding-right: 180px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        font-weight: bolder;
     }
     .nav-links li:nth-child(1){
         transition: all 0.5s ease 0.2s;
