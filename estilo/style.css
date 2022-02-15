@@ -9,9 +9,25 @@
 }
 
 body{
-    background-image: linear-gradient(to right, cyan, rgb(162, 51, 206));
+    background: linear-gradient(-45deg, #2C3333,#395B64,#FFBC80,#F5F2E7);
+    background-size: 300% 300%;
+    animation: change 10s ease-in-out infinite;
     
 }
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+    
+    
+}
+
 .box div{
     position: absolute;
     width: 60px;
@@ -85,7 +101,7 @@ body{
 
 
 div.conteudo{
-    width: 400px;
+    width: 350px;
     padding: 10px;
     border-radius: 15px;
     position: absolute;
