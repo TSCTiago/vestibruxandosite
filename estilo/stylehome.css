@@ -1,18 +1,26 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background-image: linear-gradient(to right, cyan, rgb(162, 51, 206));
-    background-repeat: no-repeat;
-    
-    
+    background: linear-gradient(-45deg, #2C3333,#395B64,#FFBC80,#F5F2E7);
+    background-size: 300% 300%;
+    animation: change 10s ease-in-out infinite;
 }
-
-body{
-    font-family: Arial, Helvetica, sans-serif;
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+    
     
 }
 
@@ -36,11 +44,14 @@ nav{
     color: white;
     text-decoration: none;
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 h1{
     margin: 100px;
-    font-size: 40px;     
+    font-size: 40px;   
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;  
 }
 .nav-links li:hover{
     padding-left: 40px;
@@ -87,6 +98,7 @@ h1{
         -webkit-clip-path: circle(100px at 90% -10%);
         transition: all 1s ease-out;
         pointer-events: none;
+        z-index: 1;
         
     }
     .nav-links.open{
@@ -128,7 +140,12 @@ h1{
     
 
 }
-
+.perfil{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
 
 
 section#primeira{
@@ -153,6 +170,12 @@ footer{
     text-align: center;
     font-size: 0.8em;
     padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 15px;
+    z-index: 1;
 }
 
 footer a {
