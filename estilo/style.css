@@ -18,7 +18,7 @@ body{
     height: 60px;
     background-color: transparent;
     border: 6px solid rgba(2, 2, 2, 0.8);
-    border-radius: 10px;
+    border-radius: 7px;
     margin-top: 15vh;
     
 }
@@ -28,7 +28,7 @@ body{
     animation: animate 10s linear infinite;
 }
 .box div:nth-child(2){
-    top: 70%;
+    top: 40%;
     left: 50%;
     animation: animate 7s linear infinite;
 }
@@ -48,7 +48,7 @@ body{
     animation: animate 6s linear infinite;
 }
 .box div:nth-child(6){
-    top: 80%;
+    top: 60%;
     left: 70%;
     animation: animate 12s linear infinite;
 }
@@ -63,7 +63,7 @@ body{
     animation: animate 16s linear infinite;
 }
 .box div:nth-child(9){
-    top: 90%;
+    top: 60%;
     left: 25%;
     animation: animate 9s linear infinite;
 }
@@ -85,7 +85,7 @@ body{
 
 
 div.conteudo{
-    width: 300px;
+    width: 500px;
     padding: 10px;
     border-radius: 15px;
     position: absolute;
@@ -93,6 +93,9 @@ div.conteudo{
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+    background-color: rgba(69, 114, 173, 0.541);
+    box-shadow: -5px 5px 0px rgba(0, 0, 0, 0.322);
+    z-index: 1;
 
 }
 h1{
@@ -105,11 +108,13 @@ h1{
 input.dig{
     padding: 15px;
     border-style: none;
-    border-radius: 10px;
-    width: 200px;
+    border-radius: 7px;
+    width: 250px;
+    height: 20px;
     font-size: 1em;
     font-family: var(--fonte2);
-    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.719);
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.322);
+    background-color: rgba(255, 255, 255, 0.664);
    
     
     
@@ -118,13 +123,21 @@ input#botao{
     padding: 5px;
     border-radius: 10px;
     width: 150px;
-    height: 50px;
+    height: 40px;
     font-size: 1.5em;
     font-family: var(--fonte1);
     text-align: center;
     cursor: pointer;
-    background-color: rgba(105, 105, 105, 0.932);
+    border-style: none;
+    box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.233);
+    background-color: rgba(255, 255, 255, 0.664);
+
     
+}
+input#botao:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+    background-color: white;
 }
 
 
