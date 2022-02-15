@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 body{
-    background: linear-gradient(-45deg, #2C3333,#395B64,#FFBC80,#F5F2E7);
+    background: linear-gradient(-45deg, #2C3333,#395B64,#ffbb80a4,#dacda1);
     background-size: 300% 300%;
     animation: change 10s ease-in-out infinite;
 }
@@ -27,6 +27,7 @@ body{
 nav{
     height: 10vh;
     background: #5b78c7;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.411);
 
 }
 
@@ -45,6 +46,7 @@ nav{
     text-decoration: none;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
 }
 
 h1#corpo{
@@ -52,6 +54,7 @@ h1#corpo{
     font-size: 25px;   
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;  
+    
 }
 .nav-links li:hover{
     padding-left: 40px;
@@ -59,8 +62,9 @@ h1#corpo{
     padding-top: 15px;
     padding-bottom: 15px;
     border-radius: 10px;
-    background-color: wheat;
+    background-color: rgba(179, 197, 245, 0.719);
     transition: 0.5s;
+    
 
 }
 
@@ -117,7 +121,7 @@ h1#corpo{
     
     }
     .nav-links li:hover{
-        background-color: rgba(84, 84, 212, 0.568);
+        background-color: rgba(84, 212, 212, 0.753);
         border-radius: 7px;
         padding-left: 180px;
         padding-right: 180px;
@@ -241,7 +245,7 @@ section#primeira{
 }
 
 footer{
-    background-color: rgba(16, 16, 172, 0.623);
+    background-color: rgba(30, 30, 190, 0.795);
     color: white;
     text-align: center;
     font-size: 0.8em;
@@ -252,6 +256,7 @@ footer{
     text-align: center;
     padding-top: 15px;
     z-index: 1;
+    
 }
 
 footer a {
