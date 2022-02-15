@@ -8,6 +8,7 @@ body{
     background-image: linear-gradient(to right, cyan, rgb(162, 51, 206));
     background-repeat: no-repeat;
     
+    
 }
 
 body{
@@ -49,6 +50,7 @@ h1{
     border-radius: 10px;
     background-color: wheat;
     transition: 0.5s;
+
 }
 
 
@@ -142,9 +144,9 @@ section#primeira{
 }
 .picture:hover{
     transform: scale(1.2);
-    transition: all 0.5s ease-out;
-    
+    transition: all 0.5s ease-out;   
 }
+
 footer{
     background-color: rgba(16, 16, 172, 0.623);
     color: white;
