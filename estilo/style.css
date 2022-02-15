@@ -163,7 +163,13 @@ p#paragrafo{
     text-transform: uppercase;
     font-weight: bolder
 }
-img.tres{
+#tres{
     padding: 5px;
+    font-size: 2em;
+    color: #212525;
+}
+#icons{
+    font-size: 1.3em;
+    color: #2C3333;
 }
 
