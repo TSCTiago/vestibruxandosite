@@ -118,6 +118,7 @@ h1{
 }
 
 input.dig{
+    outline: none;
     padding: 15px;
     border-style: none;
     border-radius: 7px;
